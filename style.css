@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* NAVIGATION BAR STYLE */
+.navbar{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    box-shadow: 0px 5px 5px -3px;
+    margin-bottom: 20px  
+}
+
+.logo img{
+    float: left;
+    width: 200px;    
+}
+
+
+.nav nav{
+    display: inline-block;
+    margin-left: 20%;
+}
+.nav nav a{
+    font-size: 1.4vw;
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px 10px 20px;
+}
+.nav nav a:hover{
+    background-color: #292929;
+    color: #d6a13e;
+}
+@media screen and (max-width: 600px){
+    .logo img{
+        float: none;
+        margin: 0;
+        margin: 0 10%;
+    }
+    .nav nav a{
+        width: 100%;
+        display: block;
+        text-align: center;        
+    }
+    .nav nav{
+        margin-left: 0;
+    }
+ }
+ 
+
+
+/* ----------------------------------------------------------------------- */
+/* FOOTER STYLE */
+
+footer{
+    display: block;
+}
+
+
+.footeru{
+    text-align: center;
+    width: 15%;
+    float: left;
+}
+.footeru a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+.footeru a:hover{
+    color: rgb(255, 136, 0);
+}
+.footeru h4{
+    font-size: 2vw;
+}
+@media screen and (max-width: 600px){
+   .footeru{
+       width: 100%;
+   }
+   
+}
+
+
+
+.footer{
+    margin: 0 5% 0 5%;
+    padding: 0 5%;
+}
+#lowerfooter{
+    display: block;
+    width: 100%;
+    font-size: 1vw;
+    margin-bottom: -5%;
+}
+#lowerfooter p{
+    padding: 2%;
+    text-align: center;
+}
+
+
+
+/* --------------------------------------------------------------------- */
+/* BLOCK */
+
+.block{
+    padding: 1%;
+    margin: 10%;
+}
+.block .blockheading{
+    font-size: 4vw;
+}
+.block .blockcontent h3{
+    font-size: 4vw;
+}
+.block .blockcontent p{
+    font-size: 3vw;
+}
